@@ -24,7 +24,7 @@ public class AplMain {
 	        Scanner lastName = new Scanner (System.in); 
 
 	        enterLastName = lastName.nextLine ();
-=======
+
 		Scanner entradaEscaner = new Scanner (System.in); 
 
 	        enterName = entradaEscaner.nextLine ();
