@@ -7,6 +7,8 @@ import java.util.Scanner;
 
 import javax.xml.crypto.Data;
 
+
+
 public class AplMain {
 
 	public static void main(String[] args) {
@@ -15,6 +17,16 @@ public class AplMain {
 		
 			System.out.println("Hola mundo y Hola Paula morena divina ;)");
 			System.out.println("The current date is"+ currentDate.toString());
+System.out.println("Enter your last name");
+			String enterLastName = "";
+
+	        Scanner lastName = new Scanner (System.in); 
+
+	        enterLastName = lastName.nextLine ();
+
+	        System.out.println ("Your last name is: \""+ enterLastName +"\"");
+			
+=======
 			System.out.println ("write your name:");
 
 	        String entradaTeclado = "";
