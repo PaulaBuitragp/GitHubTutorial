@@ -26,8 +26,8 @@ public class AplMain {
 			
 			System.out.println("Enter your last name");
 			String enterLastName = "";
-	        Scanner lastName = new Scanner (System.in); 
-	        enterLastName = lastName.nextLine ();
+	        	Scanner lastName = new Scanner (System.in); 
+	        	enterLastName = lastName.nextLine ();
 
 	        System.out.println ("your name is: \"" + enterName +"\"");
 	        
