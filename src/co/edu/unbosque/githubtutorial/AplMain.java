@@ -15,7 +15,7 @@ public class AplMain {
 		
 			System.out.println("Hola mundo y Hola Paula morena divina ;)");
 			System.out.println("The current date is"+ currentDate.toString());
-			System.out.println ("Por favor escriba su nombre:");
+			System.out.println ("write your name:");
 
 	        String entradaTeclado = "";
 
@@ -23,7 +23,7 @@ public class AplMain {
 
 	        entradaTeclado = entradaEscaner.nextLine ();
 
-	        System.out.println ("Entrada recibida por teclado es: \"" + entradaTeclado +"\"");
+	        System.out.println ("your name is: \"" + entradaTeclado +"\"");
 	        
 		}
 	}
