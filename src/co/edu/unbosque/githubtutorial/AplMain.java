@@ -17,9 +17,7 @@ public class AplMain {
 		
 			System.out.println("Hola mundo y Hola Paula morena divina ;)");
 			System.out.println("The current date is"+ currentDate.toString());
-			
-			
-			System.out.println("Enter your last name");
+System.out.println("Enter your last name");
 			String enterLastName = "";
 
 	        Scanner lastName = new Scanner (System.in); 
@@ -28,6 +26,17 @@ public class AplMain {
 
 	        System.out.println ("Your last name is: \""+ enterLastName +"\"");
 			
+=======
+			System.out.println ("write your name:");
+
+	        String entradaTeclado = "";
+
+	        Scanner entradaEscaner = new Scanner (System.in); 
+
+	        entradaTeclado = entradaEscaner.nextLine ();
+
+	        System.out.println ("your name is: \"" + entradaTeclado +"\"");
+	        
 		}
 	}
 
